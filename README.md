@@ -11,6 +11,7 @@
 - Crear imagen usando el dockerfile.
 
 - Crear container.
+
 `docker run -d -v ${PWD}:/root --security-opt seccomp:unconfined -it --name ubuntu-14-galileo ubuntu:14.04`
 - Dentro del contenedor:
 
