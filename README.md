@@ -7,11 +7,18 @@
 [meta-clanton_v1.1.0-dirty](https://github.com/federicogramos/meta-clanton_v1.1.0-dirty).
 
 # How to use
+
 - Crear imagen usando el dockerfile.
+
 - Crear container `docker run -d -v ${PWD}:/root --security-opt seccomp:unconfined -it --name ubuntu-14-galileo ubuntu:14.04`
 - Dentro del contenedor:
+
 (a) antes del setup.sh, configurar git `git config --global user.email "you@example.com"` y `git config --global user.name "Your Name"`
+
 (b) en /root hacer `./setup.sh`
+
 Los errores siguientes ignorarlos:
+
 `error: meta-galileo/recipes-core/initscripts/files/galileod.sh: does not exist in index`
+
 `error: meta-iot-devkit/recipes-kernel/linux/linux-yocto-quark_3.8.bbappend: does not exist in index`
