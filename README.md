@@ -15,7 +15,7 @@
 `docker run -d -v ${PWD}:/root --security-opt seccomp:unconfined -it --name ubuntu-14-galileo ubuntu:14.04`
 - Dentro del contenedor:
 
-a) antes del setup.sh, configurar git.
+(a) antes del setup.sh, configurar git.
 
 `git config --global user.email "you@example.com" && git config --global user.name "Your Name"`
 
