@@ -47,3 +47,7 @@ git config --get user.email
 ./setup.sh
 exit
 exit
+cd root
+source iot-devkit-init-build-env build
+ls
+exit
