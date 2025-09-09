@@ -21,5 +21,6 @@
 
 Los errores siguientes ignorarlos:
 
-`error: meta-galileo/recipes-core/initscripts/files/galileod.sh: does not exist in index`
-`error: meta-iot-devkit/recipes-kernel/linux/linux-yocto-quark_3.8.bbappend: does not exist in index`
+```bash
+error: meta-galileo/recipes-core/initscripts/files/galileod.sh: does not exist in index
+error: meta-iot-devkit/recipes-kernel/linux/linux-yocto-quark_3.8.bbappend: does not exist in index
