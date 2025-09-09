@@ -8,6 +8,8 @@
 
 # How to use
 
+Casi lo mismo que indica en README_ORIGINAL, pero pequenos agregados/aclaraciones.
+
 - Crear imagen usando el dockerfile.
 
 - Crear container.
@@ -26,3 +28,7 @@ Los errores siguientes ignorarlos:
 ```bash
 error: meta-galileo/recipes-core/initscripts/files/galileod.sh: does not exist in index
 error: meta-iot-devkit/recipes-kernel/linux/linux-yocto-quark_3.8.bbappend: does not exist in index
+
+- Execcute:
+```bash
+source iot-devkit-init-build-env build
