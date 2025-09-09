@@ -30,5 +30,6 @@ error: meta-galileo/recipes-core/initscripts/files/galileod.sh: does not exist i
 error: meta-iot-devkit/recipes-kernel/linux/linux-yocto-quark_3.8.bbappend: does not exist in index
 ```
 
-- Execcute:
+- Execute:
+
 `source iot-devkit-init-build-env build`
