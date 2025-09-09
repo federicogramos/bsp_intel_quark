@@ -30,3 +30,19 @@ apt install -y python gcc git
 apt install patchutils
 ./setup.sh
 exit
+cd root
+exit
+cd root
+./setup.sh
+./setup.sh
+git config --help
+git config user.emailexit
+git config --global user.email federico.g.ramos@gmail.com
+git config --global user.name "Federico Ramos"
+git --help
+git show user.name
+git show user
+git config --get user.name
+git config --get user.email
+./setup.sh
+exit
