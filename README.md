@@ -12,7 +12,7 @@ Casi lo mismo que indica en README_ORIGINAL, pero pequenos agregados/aclaracione
 
 - Crear imagen usando el dockerfile.
 
-- Crear container.
+- Crear container dentro de /meta-clanton
 
 `docker run -d -v ${PWD}:/root --security-opt seccomp:unconfined -it --name ubuntu-14-galileo ubuntu:14.04`
 - Dentro del contenedor:
@@ -23,12 +23,7 @@ Casi lo mismo que indica en README_ORIGINAL, pero pequenos agregados/aclaracione
 
 (b) en /root hacer `./setup.sh`
 
-Los errores siguientes ignorarlos:
-
-```bash
-error: meta-galileo/recipes-core/initscripts/files/galileod.sh: does not exist in index
-error: meta-iot-devkit/recipes-kernel/linux/linux-yocto-quark_3.8.bbappend: does not exist in index
-```
+Si todo sale bien, deberia crear el archivo iot-devkit-init-build-env
 
 - Execute:
 

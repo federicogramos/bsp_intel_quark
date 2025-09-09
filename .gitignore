@@ -1,5 +1,5 @@
 
-# Arcchivos grandes, no necesario, se descagan con ./setup.sh 
+# Arcchivos grandes, no necesario, se descagan con ./meta-clanton/setup.sh 
 meta-clanton/repo-ext/*
 
 *DS_Store
