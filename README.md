@@ -15,6 +15,7 @@
 - Dentro del contenedor:
 
 (a) antes del setup.sh, configurar git.
+
 `git config --global user.email "you@example.com" && git config --global user.name "Your Name"`
 
 (b) en /root hacer `./setup.sh`
