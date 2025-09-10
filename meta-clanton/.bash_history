@@ -5,3 +5,6 @@ git config --get user.email
 git config --get user.email
 git config --global user.email "federico.g.ramos@gmail.com" && git config --global user.name "Federico Ramos"
 exit
+cd root
+./setup.sh
+exit
