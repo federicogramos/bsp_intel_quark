@@ -1,3 +1,0 @@
-Default targets are:
-    image-full
-    image-spi
